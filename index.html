@@ -8,33 +8,37 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <section class="signup-container">
-        <div class="welcome">
-            <div class="navbar">
-                <nav>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                    </ul>
-                </nav>
+    <p class="nav"> Home</p>
+    <div class="cont">
+        <div class="form sign-up">
+            <h1>Welcome to chillax'n'eat</h1>
+            <label for="">
+                <span>
+                    Full Name
+                </span>
+                <input type="name" required>
+            </label>
+            <label for="">
+                <span>
+                    Email
+                </span>
+                <input type="email" required>
+            </label>
+            <label for="">
+                <span>
+                    Password
+                </span>
+                <input type="password" required>
+            </label>
+            <button type="button" class="Submit">Submit</button>
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                </div>
             </div>
-            </div>
-            <div class="form-wrapper">
-                <form>
-                <h2 class="heading">Welcome to chillax'n'eat!</h2>
-                <label><input type="text" placeholder="Your First Name" required></label><br><br>
-                <label><input type="text" placeholder="Your Email Address" required></label><br><br>
-                <label><input type="text" placeholder="Your Password" pattern="{5,10}" required title="Enter your Password"></label><br><br>
-                <button type="submit">SIGN UP</button>
-                <label class="link">Already have an account?<a href="#">LOGIN</a></label>
-                <div>
-                   <img src="/IMAGES/food.jpg" class="image">
-                    </div>
 
-
-            </div>
-        </form>
         </div>
 
-    </section>
+    </div>
 </body>
 </html>
