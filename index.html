@@ -8,37 +8,31 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <p class="nav"> Home</p>
-    <div class="cont">
-        <div class="form sign-up">
-            <h1>Welcome to chillax'n'eat</h1>
-            <label for="">
-                <span>
-                    Full Name
-                </span>
-                <input type="name" required>
-            </label>
-            <label for="">
-                <span>
-                    Email
-                </span>
-                <input type="email" required>
-            </label>
-            <label for="">
-                <span>
-                    Password
-                </span>
-                <input type="password" required>
-            </label>
-            <button type="button" class="Submit">Submit</button>
-        </div>
-        <div class="sub-cont">
-            <div class="img">
+    <section class="signup-container">
+        <div class="form-wrapper">
+            <div class="overlay"></div>
+            <form class="form-container">
+                <h2 class="header">Welcome to Chillax'n'eat!</h2>
+
+                <label for="Fullname"></label><br><br>
+                <input type="input-box" type="text" placeholder="Your Full Name" required>
+
+                <label for="email"></label><br><br>
+                <input type="input-box" type="text" placeholder="Your Email Address" required>
+
+                <label for="password"></label><br><br>
+                <input type="input-box" type="text" placeholder="Enter your password" pattern="(5.10)" required><br><br>
+
+                <button type="submit">SIGN UP</button><br><br>
+
+                <div>
+                    <a href="#">LOGIN</a> Already have an account?
                 </div>
-            </div>
+
+            </form>
 
         </div>
 
-    </div>
+    </section>
 </body>
 </html>
